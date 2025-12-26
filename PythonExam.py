@@ -19,7 +19,7 @@ class ExpenseTracker:
     def __init__(self):
         self.df = df
         self.expenses = expenses
-        self.df['date'] = pd.to_datetime(self.df.date)
+        
 
     def add_expense(self, date, amount, category, description):
         self.date = date
@@ -145,6 +145,7 @@ Choose:
 #
 #
 #
+
 
 
 
